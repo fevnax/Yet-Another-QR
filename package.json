@@ -1,0 +1,30 @@
+{
+  "name": "yet-another-qr",
+  "version": "1.0.0",
+  "description": "A QR code generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fevnax/yet-another-qr.git"
+  },
+  "keywords": [
+    "qrcode"
+  ],
+  "author": "Harshvardhan Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fevnax/yet-another-qr/issues"
+  },
+  "homepage": "https://github.com/fevnax/yet-another-qr#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
