@@ -15,8 +15,159 @@
 }
 
 body {
-    /* font-family: "Alternates"; */
     background-image: url("/Images/shapes.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.logo {
+    font-family: Alternates;
+    letter-spacing: -4px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.navbar {
+    width: 95%;
+    height: 5.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Alternates;
+}
+
+.navbar-left {
+    margin-left: 6rem;
+}
+
+.logo {
+    word-spacing: -2px;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6rem;
+    gap: 2.5rem;
+}
+
+.navbar-left>a,
+.navbar-right>a {
+    color: #949497;
+    text-decoration: none;
+}
+
+#Y {
+    color: #ffc107;
+}
+
+#A {
+    color: #2196f3;
+}
+
+#Q {
+    color: #4caf50;
+}
+
+#R {
+    color: #f44336;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* align-content: center; */
+    /* align-self: center; */
+}
+
+#yaqr {
+    color: #434343;
+    font-family: "Alternates";
+    font-style: italic;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#urlInput {
+    width: 22rem;
+    height: 3.5rem;
+    border: 1.5px solid black;
+    border-radius: 0.5rem;
+    border-radius: 8px;
+    padding-left: 0.75rem;
+    margin-bottom: 2rem;
+    transition: border-color 0.1s ease;
+}
+
+#urlInput:focus {
+    outline: none;
+    border-color: #f44336;
+}
+
+.card {
+    width: 25rem;
+    height: 15rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#generate {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.9rem;
+    background-color: #52ca56;
+    border: none;
+}
+
+#generate:hover {
+    background-color: #4caf50;
+}
+
+#qrcode {
+    font-family: Alternates;
+    margin-top: 6rem;
+    /* margin-bottom: 6rem; */
+}
+
+#qrimg {
+    filter: saturate(0);
+}
+
+#another {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.9rem;
+    background-color: #52ca56;
+    border: none;
+    margin-top: 2rem;
+}
+
+#another>a {
+    text-decoration: none;
+    color: black;
+}
+
+#another:hover {
+    background-color: #4caf50;
 }

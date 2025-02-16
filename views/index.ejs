@@ -1,5 +1,16 @@
 <%- include("partials/header.ejs") %>
-    
-<!-- <h1>Yet Another QR</h1> -->
 
-<%- include("partials/header.ejs") %>
+    <main>
+
+        <div class="container">
+
+            <h1 id="yaqr">Yet Another QR</h1>
+
+            <form id="form" method="post" action="/yaqr">
+                <input type="url" id="urlInput" name="url" placeholder="Enter URL">
+                <input id="generate" type="submit" value="Generate QR">
+            </form>
+        </div>
+
+
+    </main>
